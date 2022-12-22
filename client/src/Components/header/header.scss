@@ -1,0 +1,38 @@
+/* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-family: 'Varela Round', sans-serif
+    @material-ui/icons/
+  }  */
+
+  .header {
+    width: 100%;
+    margin-top: 60px;
+
+      .headerTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Lora', serif;
+        position: relative;
+
+            .titleSmall {
+              position: absolute;
+              top:-40px;
+              font-size:20px;
+            }
+            // .titleLarge {
+            //   position: absolute;
+            //   top:-30px;
+            //   font-size: 100px;
+            // }
+      }
+      .headerImg {
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+      }
+  }
+  

@@ -1,0 +1,113 @@
+/* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-family: 'Varela Round', sans-serif
+        @material-ui/icons/
+  }  */
+
+  .settings {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+
+        .settingsWrapper {
+          flex: 9;
+          padding: 20px;
+
+            .settingsTitle {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              .settingsTitleUpdate {
+                font-size: 30px;
+                margin-bottom: 20px;
+                color: lightcoral;
+              }
+              
+              .settingsTitleDelete {
+                color: red;
+                font-size: 12px;
+                cursor: pointer;
+              }
+
+            }
+
+            .settingsForm {
+              display: flex;
+              flex-direction: column;
+
+              .settingsProP {
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+                    svg {
+                      width: 25px;
+                      height: 25px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      border: none;
+                      border-radius: 50%;
+                      margin-left: 10px;
+                      color: white;
+                      background-color: lightcoral;
+                      cursor: pointer;
+                    }
+
+                    img {
+                      height: 70px;
+                      width: 70px;
+                      border-radius: 20px;
+                      object-fit: cover;
+                    } 
+                  }
+
+                  label {
+                    font-size: 20px;
+                    margin-top: 20px;
+                  }
+                  
+                  input {
+                    color: gray;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    height: 30px;
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    &:focus{
+                      outline-style: none;
+                    }
+                  }
+                  button {
+                      align-self: center;
+                      width: 150px;
+                      border: none;
+                      border-radius: 10px;
+                      color: white;
+                      background-color: teal;
+                      padding: 10px;
+                      margin-top: 20px;
+                      cursor: pointer;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+
+                      &:hover {
+                        background-color: rgb(1, 114, 114);
+                      }
+                  }
+                  span {
+                    color:rgb(0, 131, 28);
+                    display: flex;
+                    align-self: center;
+                    margin-top: 10px;
+                  }
+            }
+
+
+        }
+}
